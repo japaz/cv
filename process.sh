@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/bash 
+set -euo pipefail
 
 # Create output directory if it doesn't exist
 mkdir -p output
@@ -9,14 +10,9 @@ for file in *.md; do
     base_name=$(basename "$file" .md)
     
     # Run pandoc command with specified settings
-    pandoc "$file" -o "output/${base_name}.pdf" \
-        -V geometry:margin=0.5in \
-        -V mainfont="Arial" \
-        -V fontsize=11pt \
-        -V papersize=a4 \
-        --pdf-engine=xelatex
+    pandoc "$file" -o "output/${base_name}.docx" --reference-doc=custom-reference.docx
 
-    echo "Generated: output/${base_name}.pdf"
+    echo "Generated: output/${base_name}.docx"
 done
 
-echo "Conversion complete. PDFs are in the output/ directory."
+echo "Conversion complete. docxs are in the output/ directory."
