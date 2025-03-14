@@ -12,10 +12,9 @@ LinkedIn: https://www.linkedin.com/in/albertopazjimenez/
 
 ## TECHNICAL SKILLS
 **Languages**: Ruby, Java, Scala, JavaScript, TypeScript, C++, SQL\
-**Frameworks**: Ruby on Rails, Spring MVC, Angular, Play Framework, Apache Camel, Hibernate\
+**Frameworks**: Ruby on Rails, Spring MVC, Angular, React, Play Framework, Apache Camel, Hibernate\
 **Cloud/DevOps**: AWS, Kubernetes, Docker, MongoDB, MySQL, CI/CD\
-**Middleware**: BEA WebLogic, Tuxedo, WebSphere, SAP Netweaver, DCOM\
-**Legacy Tools**: Rational Rose, Sterling COOL:Jex, JReport, Business Objects, Grinder\
+**Middleware**: Kafka, ActiveMQ, SNS\
 **Methods**: Agile/Scrum, TDD, Distributed Systems, Microservices\
 
 ---
@@ -25,7 +24,7 @@ LinkedIn: https://www.linkedin.com/in/albertopazjimenez/
 ### **Senior Software Engineer** | Flywire | Feb 2022 – Mar 2025
 * Developed payment processing system using **Ruby on Rails** and **AWS**
 * **Key Contributions**:
-  + Optimized backend performance for third-party payment gateway integrations (Stripe, PayPal)
+  + Optimized backend performance for third-party payment gateway integrations (Stripe)
   + Led technical debt reduction initiatives to improve code maintainability
 
 ---
