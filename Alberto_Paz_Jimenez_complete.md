@@ -1,7 +1,7 @@
 # ALBERTO PAZ JIMÉNEZ
 **Senior Software Engineer | Ruby on Rails Specialist | Tech Lead**\
 Aranjuez, Madrid, Spain | +34 616 99 31 13 | alberto.pazjimenez@gmail.com\
-LinkedIn: https://www.linkedin.com/in/albertopazjimenez/
+LinkedIn: [https://www.linkedin.com/in/albertopazjimenez/](https://www.linkedin.com/in/albertopazjimenez/)
 
 ---
 
