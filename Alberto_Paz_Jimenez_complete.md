@@ -24,7 +24,7 @@ LinkedIn: [https://www.linkedin.com/in/albertopazjimenez/](https://www.linkedin.
 ### **Senior Software Engineer** | Flywire | Feb 2022 – Mar 2025
 * Developed payment processing system using **Ruby on Rails** and **AWS**
 * **Key Contributions**:
-  + Optimized backend performance for third-party payment gateway integrations (Stripe)
+  + Optimized backend performance for third-party payment gateway integrations
   + Led technical debt reduction initiatives to improve code maintainability
 
 ---
