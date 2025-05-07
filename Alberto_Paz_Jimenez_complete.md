@@ -69,9 +69,9 @@ LinkedIn: [https://www.linkedin.com/in/albertopazjimenez/](https://www.linkedin.
 ---
 
 ### **Software Developer** | Various Companies | Mar 1997 – Sep 2000
-* **Indra**: Distributed testing system for aircraft equipment (**C++, DCOM, UML/Rational Rose**)
-* Bank document inspection system using **computer vision (Linux/C++)**
-* Electrical appliance test system deployed to 10+ clients (**C/C++**)
+* Developed a distributed testing system for aircraft equipment (**C++, DCOM, UML/Rational Rose**)
+* Engineered a bank document inspection system using **computer vision (Linux/C++)**
+* Built an electrical appliance test system deployed to 10+ clients (**C/C++**)
 
 ---
 
