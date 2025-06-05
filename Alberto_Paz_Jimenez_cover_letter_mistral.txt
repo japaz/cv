@@ -1,0 +1,11 @@
+# Short Cover Letter - Mistral AI Backend Engineer Position
+
+I'm really excited about the Backend Engineer position on your Deployment team. Over the past 20+ years, I've been deep in the trenches with cloud infrastructure, AWS/Kubernetes, Docker, and CI/CD pipelines. The multi-environment deployment challenges you're tackling (cloud, private cloud, on-premises) - that's exactly the kind of work I love.
+
+At Flywire, I led the migration of our observability platform to Honeycomb using OpenTelemetry, reducing infrastructure costs by 25%. At ElevenPaths, I spent a lot of time designing cloud-native architectures with Kubernetes resource optimization - managed to cut compute costs by 30%.
+
+Let me be upfront about Python: I'm solid with Ruby, Java, Scala, JavaScript, TypeScript, and C++, but Python isn't my strongest suit yet. That said, I've always been pretty quick at picking up new languages and I'm genuinely excited about diving deeper into Python for this role.
+
+What really draws me to Mistral AI is how you're approaching AI model deployment across so many different environments. Plus, your open-source commitment resonates with me. Being based in Spain works well for those Paris office visits, and honestly, working with a distributed team sounds perfect.
+
+I'd love to chat about how my infrastructure background and eagerness to learn could fit with what you're building.

@@ -1,0 +1,65 @@
+About Mistral
+
+At Mistral AI, we believe in the power of AI to simplify tasks, save time, and enhance learning and creativity. Our technology is designed to integrate seamlessly into daily working life.
+
+We democratize AI through high-performance, optimized, open-source and cutting-edge models, products and solutions. Our comprehensive AI platform is designed to meet enterprise needs, whether on-premises or in cloud environments. Our offerings include le Chat, the AI assistant for life and work.
+
+We are a dynamic, collaborative team passionate about AI and its potential to transform society.
+Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between France, USA, UK, Germany and Singapore. We are creative, low-ego and team-spirited.
+
+Join us to be part of a pioneering company shaping the future of AI. Together, we can make a meaningful impact. See more about our culture on https://mistral.ai/careers.
+
+Role Summary
+
+We are seeking experienced backend software engineers (Python, Docker, K8s) to join our Engineering team. You'll help deploy and integrate our models and APIs across multiple infrastructure configurations, from leading cloud service providers to self-hosted (private cloud and on-premises) solutions. You'll work closely with the research, product, solution architect and program management teams to serve our frontier models to customers wherever they use our technology.
+
+What you will do
+
+As a Software Engineer in the Deployment team, you will be responsible for:
+• New releases – you will ensure fast and reliable launch of new models and new features to customers
+• Build and test infrastructure – you will work to improve and extend the infrastructure needed to package, deploy and integrate our core technology within first-party systems and third-party platforms
+• Safety – you will help solve the unique challenges that come with maintaining AI safety on third-party platforms
+• Observability and Monitoring – you will collaborate closely with both internal and external stakeholders to ensure our services achieve high availability and deliver state-of-the-art performance for our users
+• Resource Optimization – you will help measure and optimize the allocation of the chips that serve our models to make the best use of costly resources.
+
+About you
+
+• 5+ years of relevant professional work experience
+• Master’s degree in Computer Science, Information Technology or a related field
+• Excellent proficiency in backend software development (Python)
+• Strong proficiency in infrastructure management (Docker, CI/CD, K8s, Helm, Terraform...)
+• Good knowledge of cloud ecosystems and understanding of the challenges of deploying LLM in multiple environments (public cloud, private cloud, on-premises)
+• Autonomous and self-starter profile
+• Ability to communicate with influence
+
+Hiring Process
+
+Here is what you should expect:
+• Introduction call - 45 min
+• Hiring Manager interview - 30 min
+• Live-coding interview (Python) - 35 min
+• System Design interview - 35 min
+• Culture-fit discussion - 30 min
+• Reference checks
+Location
+
+We do not require you to be based in a specific location as long as it is in one of the countries listed in this job posting. However, you will be expected to be available for a monthly visit to one of our offices:
+•  🇫🇷 🇩🇪 🇪🇸 If based in France, Germany or Spain: we will ask you to come to our Paris office 3 days per month
+•  🇬🇧 If based in the UK: we will ask you to come to our London office 3 days per month
+•  We will cover 100% of inter-country travelling and 50% of intra-country travelling fees
+
+Besides, please note that we ask all new hires to come to our Paris HQ for the first month of their onboarding (accommodation and travelling covered).
+
+What we offer
+
+💰 Competitive cash salary and equity
+🧑‍⚕️ Health insurance *
+🚴 Transportation allowance
+🥎 Sport allowance
+🥕 Meal vouchers
+💰 Private pension plan
+🍼 Parental : Generous parental leave policy **
+🌎 Visa sponsorship **
+
+* currently not available for Germany
+** available for France only
