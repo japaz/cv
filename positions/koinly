@@ -1,0 +1,72 @@
+Tech Lead | Remote(EU) & Async-first | Ruby & DB optimization | Crypto tax
+
+About the job
+At Koinly, we're hiring a Tech Lead. This is a hands-on leadership role where you'll act as the guardian of a clean, well-tested, high-performance codebase—ensuring it remains simple, scalable, and stable in production (most of the time). You’ll lead by example: reviewing code, mentoring engineers, and solving our most complex architectural and performance challenges, especially around databases at scale.
+
+We pride ourselves on having very high test coverage and rarely having any prod issues. Our backend follows a microservices architecture, consisting of multiple small services—primarily built with Ruby—that collectively power the user experience.
+We’re a fully remote-first, async-first startup with product-market fit in a niche (and booming) domain: crypto taxes. If you value autonomy, technical excellence, and clear communication over meetings and process complexity, Koinly is the place for you.
+
+Key details
+Role: Tech Lead
+Location: Remote - strong preference for Europe-based candidates
+Salary: USD $100k-$120k
+Type: Full-time (contractor - B2B)
+Timezone: Ideally UK ±2 hours
+Experience level: Senior (+7 years) with prior leadership experience
+Start date: ASAP
+Team size: 10 engineers in a 35-person team
+On-call: This role may include occasional on-call responsibilities.
+
+About us
+🌕 We’re on a mission to make crypto taxes simple.
+Since 2019, we’ve grown to 1.5M+ users by tackling one of crypto’s messiest challenges: tax reporting. Our platform helps investors stay compliant, track their assets across hundreds of wallets, exchanges, and DeFi platforms, and save hours of time. Just see what our customers have to say about us.
+Behind that focus towards simplicity lies a deeply technical product, built on large-scale data processing and 900+ integrations. Our stack is Ruby-heavy, our test coverage is high, and our expectations on code quality and system performance are even higher.
+
+The role
+We’re looking for a self-motivated individual who takes pride in their work, values high-quality code, and cares deeply about the overall application experience.
+If you have a data mindset, a sharp eye for clean, scalable code, a bias for ownership, and want to work in the fast-growing crypto space, apply now!
+
+What you'll do:
+Lead a small squad of 3-5 engineers, while remaining hands-on for around 50% of the time, removing roadblocks and helping with more complex projects and issues.
+Collaborate closely with tech leadership and work hand-in-hand with your product counterpart.
+Participate in triaging features and support requests from other teams.
+Perform code reviews, coach/mentor developers.
+Consistently work to deliver reliable, performant, well-tested code with a strong focus on simplicity.
+Monitor & resolve issues on production (performance, errors etc).
+
+What you'll bring
+Prior team or technical lead experience - managing engineers/projects and taking responsibility for the team’s software design and delivery.
+Excellent Ruby skills and a good understanding of React.
+Demonstrable experience building scalable products using technologies such as RabbitMQ, Kafka, OLTP/OLAP databases, AWS.
+Strong debugging and memory/speed optimization skills.
+Wish to stay hands-on in all technical aspects while leading a team of engineers.
+Outstanding communication and collaboration skills (both written and verbal).
+Strong attention to detail and a keen eye for code quality.
+7+ years of coding experience.
+
+Don’t ‘tick all of the boxes? Neither do we. We are driven by hiring not only by experience and relevance for the role but also by ambition. We celebrate anything ‘outside of the box’, so if you don’t meet all of the listed tickbox criteria, please do still apply as we’d love to hear from you.
+
+Your first month
+Your first few weeks at Koinly are all about mutual discovery. You’ll receive hands-on tasks that help us understand your technical strengths and how you operate in our async-first, ownership-driven environment. At the same time, you’ll get to explore whether our way of working challenges and supports you in the right ways.
+We’re big on clarity, autonomy, and getting things done — and we hold our own product to the same standards. We expect our users to get their taxes done in under 20 minutes — and we aim to build with that same focus and confidence. A good benchmark? Try Koinly yourself. If the product doesn’t click for you quickly, building it won’t be easier.
+
+What you'll get
+A lean, high-trust and high-impact engineering environment with zero fluff that ships with quality.
+Flat operations with full ownership and autonomy.
+An async-first work environment that favors clear communication and documentation over meetings.
+Focused, deep work — we respect your time, energy, and limits.
+Flexible working hours. Everyone is expected to work 40 hours and no more.
+A role where every line of code you write has a direct user impact.
+A culture that values feedback, autonomy, and outcome-driven work
+USD $100–$120K per year (B2B contract).
+32 paid days off per annum (incl. public holidays).
+Remote and async-first work environment.
+Co-working space budget, if desired.
+Work in the crypto space.
+
+Our interview process
+An initial call with the talent team (30 mins).
+A call with our technical recruiter (45 mins).
+A take-home task that is related to the work you would be doing (~3 hours).
+A second call that may involve live-coding and architecture problems (1.5 hours).
+Final call with our founder (30 mins).

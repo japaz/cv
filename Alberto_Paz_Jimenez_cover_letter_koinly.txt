@@ -1,0 +1,16 @@
+Dear Koinly Hiring Team,
+
+I'm excited to apply for the Tech Lead position at Koinly. With 20+ years of software engineering experience, I've spent the last several years deep in Ruby on Rails, building systems that handle millions of transactions while maintaining the kind of reliability that lets teams move fast.
+
+At Flywire (2022-2025), I led backend architecture for a payment processing platform. The work centered around database optimization for high-volume transactions and evolving our monolith into microservices. What I'm most proud of is building a test suite that gave our team the confidence to deploy multiple times per day with minimal production issues. I also spearheaded our migration from New Relic to Honeycomb using OpenTelemetry, which transformed how we debug complex distributed systems.
+
+Before that, at ElevenPaths/Telefónica Tech (2016-2022), I built a multi-tenant security platform using Ruby on Rails and Scala. The architecture needed to handle real-time security events across AWS/Kubernetes, and I implemented message processing systems using Apache Camel. I also contributed to React/TypeScript frontend development during this time.
+
+My engineering management experience at VILT (2007-2016) shaped how I think about technical leadership. Managing teams of 6-8 developers taught me that the best technical decisions happen when you stay close to the code while enabling others to do their best work. I introduced code review practices and Agile methodologies that improved our delivery predictability by 30%.
+
+I'm drawn to Koinly's engineering culture - the async-first approach, the focus on technical excellence, and the emphasis on building systems that rarely break in production. Having worked with RabbitMQ, Kafka, and various database optimization challenges, I'm ready to contribute from day one.
+
+Looking forward to discussing how I can help Koinly continue building exceptional products.
+
+Best regards,
+Alberto Paz Jiménez
