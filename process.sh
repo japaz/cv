@@ -46,15 +46,41 @@ if [ "$DEBUG" = true ]; then
 fi
 
 # Create output directory if it doesn't exist
+if [ "$DEBUG" = true ]; then
+    echo "DEBUG: Creating output directory..."
+fi
+
 if ! mkdir -p output; then
     echo "Error: Failed to create output directory"
+    if [ "$DEBUG" = true ]; then
+        echo "DEBUG: mkdir -p output failed with exit code: $?"
+        echo "DEBUG: Current directory permissions:"
+        ls -la .
+    fi
     exit 1
 fi
 
-# Verify output directory is writable
+# Verify output directory exists and is writable
+if [ ! -d output ]; then
+    echo "Error: Output directory was not created"
+    exit 1
+fi
+
 if [ ! -w output ]; then
     echo "Error: Output directory is not writable"
+    if [ "$DEBUG" = true ]; then
+        echo "DEBUG: Output directory permissions:"
+        ls -la output
+        echo "DEBUG: Current user and groups:"
+        id
+    fi
     exit 1
+fi
+
+if [ "$DEBUG" = true ]; then
+    echo "DEBUG: Output directory created successfully"
+    echo "DEBUG: Output directory info:"
+    ls -la output
 fi
 
 # Counters for reporting
@@ -123,12 +149,24 @@ for file in *.md; do
         fi
         
         if pandoc "$file" -o "$output_file" --reference-doc=custom-reference.docx; then
+            # Verify the output file was actually created
+            if [ ! -f "$output_file" ]; then
+                echo "Error: Output file was not created: $output_file"
+                if [ "$DEBUG" = true ]; then
+                    echo "DEBUG: Pandoc claimed success but output file doesn't exist"
+                    echo "DEBUG: Output directory contents:"
+                    ls -la output/ 2>/dev/null || echo "DEBUG: Output directory doesn't exist"
+                fi
+                exit 1
+            fi
+            
             echo "Generated: $output_file ($reason)"
             ((processed_count++))
             
             if [ "$DEBUG" = true ]; then
                 echo "DEBUG: Successfully generated $output_file"
                 echo "DEBUG: File size: $(ls -lh "$output_file" 2>/dev/null | awk '{print $5}' || echo 'unknown')"
+                echo "DEBUG: File permissions: $(ls -la "$output_file" 2>/dev/null || echo 'unknown')"
             fi
         else
             echo "Error: Failed to convert $file to $output_file"
