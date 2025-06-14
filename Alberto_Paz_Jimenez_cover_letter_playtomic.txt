@@ -1,0 +1,11 @@
+I'm excited about the Senior Backend Engineer (Payments) role at Playtomic. With 20+ years of full-stack engineering experience, including deep payment systems expertise at Flywire and extensive Java development throughout my career, I'm eager to help Playtomic revolutionize how athletes connect and play.
+
+What draws me to Playtomic isn't just the technical challenge, but your mission to socialize sports practice. Your approach of connecting players with similar skill levels is genuinely inspiring, and your rapid international expansion shows the real impact you're making.
+
+At Flywire, I built scalable payment processing systems: developed robust Rails APIs for third-party payment gateway integrations with secure transaction processing, optimized backend performance, and collaborated closely with product managers and frontend teams to deliver seamless payment experiences.
+
+While my recent experience has been primarily with Ruby on Rails, my foundation is deeply rooted in Java - I spent years at VILT leading teams building enterprise Java/J2EE products with Spring MVC and Hibernate, and at BearingPoint developing financial platforms. Transitioning back to Spring Boot 3 and Java 17 would be seamless given this background. I'm also experienced with MongoDB from my ElevenPaths projects and MySQL from multiple roles, plus Kubernetes deployment experience with AWS.
+
+Being based in Madrid with travel flexibility, having worked with distributed international teams, and my experience at scale-ups like Flywire perfectly aligns with your multicultural environment and start-up energy.
+
+I'd love to discuss how my payment systems expertise and Java background can help Playtomic continue transforming racket sports!
