@@ -26,7 +26,16 @@ while [[ $# -gt 0 ]]; do
 done
 
 # Create output directory if it doesn't exist
-mkdir -p output
+if ! mkdir -p output; then
+    echo "Error: Failed to create output directory"
+    exit 1
+fi
+
+# Verify output directory is writable
+if [ ! -w output ]; then
+    echo "Error: Output directory is not writable"
+    exit 1
+fi
 
 # Counters for reporting
 processed_count=0
@@ -56,10 +65,26 @@ for file in *.md; do
     fi
     
     if [ "$should_process" = true ]; then
+        # Check if pandoc is available
+        if ! command -v pandoc &> /dev/null; then
+            echo "Error: pandoc is not installed or not in PATH"
+            exit 1
+        fi
+        
+        # Check if reference document exists
+        if [ ! -f "custom-reference.docx" ]; then
+            echo "Error: custom-reference.docx not found"
+            exit 1
+        fi
+        
         # Run pandoc command with specified settings
-        pandoc "$file" -o "$output_file" --reference-doc=custom-reference.docx
-        echo "Generated: $output_file ($reason)"
-        ((processed_count++))
+        if pandoc "$file" -o "$output_file" --reference-doc=custom-reference.docx; then
+            echo "Generated: $output_file ($reason)"
+            ((processed_count++))
+        else
+            echo "Error: Failed to convert $file to $output_file"
+            exit 1
+        fi
     else
         echo "Skipped: $file (output is up to date)"
         ((skipped_count++))
