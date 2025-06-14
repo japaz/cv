@@ -148,7 +148,27 @@ for file in *.md; do
             echo "DEBUG: pandoc \"$file\" -o \"$output_file\" --reference-doc=custom-reference.docx"
         fi
         
-        if pandoc "$file" -o "$output_file" --reference-doc=custom-reference.docx; then
+        # Capture pandoc output and exit code
+        pandoc_output=""
+        pandoc_exit_code=0
+        
+        if [ "$DEBUG" = true ]; then
+            # Run pandoc with verbose output in debug mode
+            pandoc_output=$(pandoc "$file" -o "$output_file" --reference-doc=custom-reference.docx --verbose 2>&1) || pandoc_exit_code=$?
+        else
+            # Run pandoc normally
+            pandoc_output=$(pandoc "$file" -o "$output_file" --reference-doc=custom-reference.docx 2>&1) || pandoc_exit_code=$?
+        fi
+        
+        if [ "$DEBUG" = true ]; then
+            echo "DEBUG: Pandoc exit code: $pandoc_exit_code"
+            if [ -n "$pandoc_output" ]; then
+                echo "DEBUG: Pandoc output:"
+                echo "$pandoc_output"
+            fi
+        fi
+        
+        if [ $pandoc_exit_code -eq 0 ]; then
             # Verify the output file was actually created
             if [ ! -f "$output_file" ]; then
                 echo "Error: Output file was not created: $output_file"
@@ -161,17 +181,23 @@ for file in *.md; do
             fi
             
             echo "Generated: $output_file ($reason)"
-            ((processed_count++))
+            
+            # Use a more reliable way to increment the counter
+            processed_count=$((processed_count + 1))
             
             if [ "$DEBUG" = true ]; then
                 echo "DEBUG: Successfully generated $output_file"
+                echo "DEBUG: Processed count: $processed_count"
                 echo "DEBUG: File size: $(ls -lh "$output_file" 2>/dev/null | awk '{print $5}' || echo 'unknown')"
                 echo "DEBUG: File permissions: $(ls -la "$output_file" 2>/dev/null || echo 'unknown')"
             fi
         else
-            echo "Error: Failed to convert $file to $output_file"
+            echo "Error: Failed to convert $file to $output_file (exit code: $pandoc_exit_code)"
             if [ "$DEBUG" = true ]; then
-                echo "DEBUG: Pandoc exit code: $?"
+                if [ -n "$pandoc_output" ]; then
+                    echo "DEBUG: Pandoc error output:"
+                    echo "$pandoc_output"
+                fi
                 echo "DEBUG: Output directory contents:"
                 ls -la output/ 2>/dev/null || echo "DEBUG: Output directory doesn't exist"
             fi
@@ -179,7 +205,9 @@ for file in *.md; do
         fi
     else
         echo "Skipped: $file (output is up to date)"
-        ((skipped_count++))
+        
+        # Use a more reliable way to increment the counter
+        skipped_count=$((skipped_count + 1))
         
         if [ "$DEBUG" = true ]; then
             echo "DEBUG: Skipped $file - output file: $output_file"
