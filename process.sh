@@ -128,7 +128,7 @@ for file in *.md; do
             
             if [ "$DEBUG" = true ]; then
                 echo "DEBUG: Successfully generated $output_file"
-                echo "DEBUG: File size: $(ls -lh "$output_file" | awk '{print $5}')"
+                echo "DEBUG: File size: $(ls -lh "$output_file" 2>/dev/null | awk '{print $5}' || echo 'unknown')"
             fi
         else
             echo "Error: Failed to convert $file to $output_file"
@@ -146,8 +146,16 @@ for file in *.md; do
         if [ "$DEBUG" = true ]; then
             echo "DEBUG: Skipped $file - output file: $output_file"
             if [ -f "$output_file" ]; then
-                echo "DEBUG: Output file timestamp: $(stat -f %Sm "$output_file")"
-                echo "DEBUG: Source file timestamp: $(stat -f %Sm "$file")"
+                # Use compatible stat commands for both macOS and Linux
+                if stat -c %Y "$output_file" >/dev/null 2>&1; then
+                    # Linux
+                    echo "DEBUG: Output file timestamp: $(stat -c %y "$output_file")"
+                    echo "DEBUG: Source file timestamp: $(stat -c %y "$file")"
+                else
+                    # macOS
+                    echo "DEBUG: Output file timestamp: $(stat -f %Sm "$output_file")"
+                    echo "DEBUG: Source file timestamp: $(stat -f %Sm "$file")"
+                fi
             fi
         fi
     fi
