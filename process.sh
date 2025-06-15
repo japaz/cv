@@ -87,14 +87,36 @@ fi
 processed_count=0
 skipped_count=0
 
-# Process all Markdown files in current directory
-for file in *.md; do
-    # Skip if no .md files exist (glob doesn't match)
-    [ ! -f "$file" ] && continue
+# Process all Markdown files in cv and cover-letters directories
+for dir in cv cover-letters; do
+    if [ ! -d "$dir" ]; then
+        if [ "$DEBUG" = true ]; then
+            echo "DEBUG: Directory $dir does not exist, skipping"
+        fi
+        continue
+    fi
     
-    # Get base filename without extension
-    base_name=$(basename "$file" .md)
-    output_file="output/${base_name}.docx"
+    if [ "$DEBUG" = true ]; then
+        echo "DEBUG: Processing directory: $dir"
+    fi
+    
+    for file in "$dir"/*.md; do
+        # Skip if no .md files exist (glob doesn't match)
+        [ ! -f "$file" ] && continue        
+        # Get base filename without extension and directory
+        base_name=$(basename "$file" .md)
+        dir_name=$(dirname "$file")
+        output_file="output/${dir_name}/${base_name}.docx"
+        
+        # Create output subdirectory if it doesn't exist
+        output_dir="output/${dir_name}"
+        if ! mkdir -p "$output_dir"; then
+            echo "Error: Failed to create output directory: $output_dir"
+            if [ "$DEBUG" = true ]; then
+                echo "DEBUG: mkdir -p $output_dir failed with exit code: $?"
+            fi
+            exit 1
+        fi
     
     # Check if we need to process this file
     should_process=false
@@ -222,9 +244,9 @@ for file in *.md; do
                     echo "DEBUG: Output file timestamp: $(stat -f %Sm "$output_file")"
                     echo "DEBUG: Source file timestamp: $(stat -f %Sm "$file")"
                 fi
-            fi
+            fi            fi
         fi
-    fi
+    done
 done
 
 echo "Conversion complete. Processed: $processed_count, Skipped: $skipped_count"
