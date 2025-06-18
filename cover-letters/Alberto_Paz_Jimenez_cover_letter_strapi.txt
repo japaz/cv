@@ -1,0 +1,20 @@
+Dear Strapi Hiring Team,
+
+I'm excited to apply for the Senior Backend Engineer position. With 20+ years of backend development experience, I bring deep expertise in building scalable enterprise systems that translates well to your Node.js environment.
+
+While my primary background is Ruby on Rails and Java, I've consistently adapted to new technologies throughout my career. My JavaScript/TypeScript skills and backend architecture knowledge position me well for your codebase. At Flywire, I worked with complex payment processing systems requiring the same performance and API design focus that Strapi demands.
+
+When Flywire migrated from New Relic to Honeycomb using OpenTelemetry, I led the transition despite being new to the tools. I quickly mastered the technology and improved our application insights. This demonstrates how strong engineering fundamentals transfer across technologies.
+
+My content management experience at VILT included building Java multi-portal frameworks for enterprise clients, working with systems like OpenText CEM. While different from headless CMS, the core challenges of content organization, user permissions, and API design remain consistent.
+
+I've contributed to open-source projects, notably the JOnAS J2EE application server with published IEEE research on scalability. This gave me insight into maintaining code quality while supporting community contributors—essential for Strapi's growth.
+
+Regarding GraphQL, I haven't used it professionally, typically choosing REST for past projects. However, given my strong API design background, I'm confident I can quickly learn GraphQL patterns.
+
+At VILT, I led teams of 6-8 developers and introduced Agile methodologies. I enjoy mentoring engineers and contributing to technical discussions—valuable skills for your collaborative environment.
+
+I'd welcome discussing how my backend expertise and proven adaptability can contribute to Strapi's continued success.
+
+Best regards,
+Alberto Paz Jiménez
