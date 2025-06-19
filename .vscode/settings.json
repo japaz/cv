@@ -1,3 +1,6 @@
 {
-    "github.copilot.chat.codesearch.enabled": true
+    "github.copilot.chat.codesearch.enabled": true,
+    "debug.javascript.defaultRuntimeExecutable": {
+        "pwa-node": "/Users/alberto/.local/share/mise/shims/node"
+    }
 }
