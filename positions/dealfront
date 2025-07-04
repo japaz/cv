@@ -1,0 +1,80 @@
+Dealfront logo
+Dealfront
+Share
+Show more options
+Senior Ruby Backend Software Engineer
+European Economic Area · 5 days ago · 97 people clicked apply
+Promoted by hirer · Responses managed off LinkedIn
+RemoteMatches your job preferences, workplace type is Remote.   Full-timeMatches your job preferences, job type is Full-time.   Mid-Senior level
+6 of 9 skills match your profile - you may be a good fit
+Curious where you stand? See how you compare to 97 others who clicked apply. Reactivate Premium
+
+Apply
+ 
+Save
+Save Senior Ruby Backend Software Engineer at Dealfront
+Meet the hiring team
+
+Geraint Allday
+Geraint Allday  
+ 3rd
+Talent Acquisition Lead | Candidate Experience Advocate | Leveraging Tech & Insight to Find Top Talent
+Job poster
+
+Message
+About the job
+Senior Ruby Backend Software Engineer
+Location: Europe (Remote)
+
+We are a remote-first, international SaaS company dedicated to helping businesses find and target the right accounts primed for conversion. By merging Leadfeeder and Echobot, we’ve brought together two leading companies to create a powerful sales intelligence and web visitor identification platform that gives sales and marketing teams the real time data, insights, and tools they need to win more deals.
+
+What makes us unique? Originating in Finland and Germany, the country with the highest privacy standards in Europe, Dealfront is built on a foundation of compliance and transparency. Our platform ensures users know exactly where the data comes from, maintaining integrity while enhancing profitability.
+
+Join us and be a part of our journey to transform the way businesses win more deals!
+
+About this role
+Senior Backend Software Engineers at Dealfront work mainly on building APIs, background data processing flows, and integrations. Being a very data intensive application, much of the work on the backend involves optimising and effectively using various databases - AWS RDS & Aurora, AWS DynamoDB, Elasticsearch and Redis, to name a few.
+
+Our backend consists of multiple small-to-medium sized Ruby and Ruby on Rails apps combined with Serverless components (AWS Lambda, API Gateway, Kinesis, SQS) on the side. We pride ourselves on keeping apps working smoothly, and the codebase tidy and well-tested. We dedicate time for upgrades, refactoring, and overall improvements for developer productivity and happiness.
+
+For people with skills and interest, we offer possibilities to work on our Ember.js frontend too, enabling people to grow to a fullstack role. Equally, there are opportunities to learn and be involved in the infrastructure, DevOps and serverless development.
+
+Role description
+Being part of the Backend development team involves working with a broad series of components and technologies. These include (but are not limited to): data pipelines and systems built with serverless and streaming technologies, or the internal data services used across the platform.
+
+Curiosity and passion to constantly learn new things is also a key part of this role. We are always looking to improve how we work and what tools we use. We dedicate time to research and test new technologies in order to improve our systems and make them work more efficiently and reliably.
+
+What you’ll work on:
+Work with streaming and serverless components supporting the data collection pipelines such as AWS Kinesis and AWS Lambda.
+Work optimising and storing effectively all the data we collect, using various databases such as DynamoDB, AWS RDS & Aurora, OpenSearch/Elasticsearch or Redis.
+Build internal applications mainly in Ruby, running in Kubernetes or AWS and communicating with gRPC, event based and streaming technologies.
+Provide code reviews to your peers.
+
+Requirements
+Expertise with Ruby and willingness to learn our stack. We use Ruby as our main programming language in the backend, but we are not afraid to use other languages if they are the right tool for the job.
+Interest in building scalable Serverless systems using AWS technologies such as Lambda, Kinesis or API Gateway.
+Understanding how to model and build applications using microservices architecture patterns. If you have experience with Kubernetes and gRPC is even better.
+Strong software architecture & data modeling skills to base engineering decisions on product vision
+Experience in DevOps and Infrastructure is a plus, especially in AWS, Terraform, Docker or Kubernetes
+Ability to help and improve the work of your colleagues through your teamwork and communication skills
+Experience managing, monitoring and troubleshooting production grade web applications
+Be physically located within Europe
+
+What we offer
+The chance to work with a very knowledgeable, high-achieving and fun team
+An international, diverse, dynamic and committed work environment
+The opportunity to work remotely, with a flexible work schedule
+Mental Health support with Auntie
+Annual company retreats in sunny locations, and team off-sites :)
+
+A note on AI
+The software landscape is evolving rapidly, and we're committed to evolving with it. While we don't believe AI will replace software engineers, we do believe that engineers who effectively leverage AI tools will have a significant advantage over those who don't.
+
+We're not looking for AI experts—the technology is still emerging and best practices are being established daily. What we do value is curiosity, adaptability, and a willingness to experiment with AI-powered development tools as part of your workflow.
+
+At Dealfront, we provide access to leading AI coding assistants and encourage their thoughtful integration into everyday development practices. We see this as an investment in both productivity and professional growth.
+
+If this role excites you and sounds like a great fit, please apply below!
+
+
+We encourage all interested candidates to apply, even if you don't meet all of the criteria listed. We value diversity and inclusion in our workplace and welcome applications from candidates across all backgrounds and do not discriminate on the basis of race, religion, gender, sexual orientation, age, marital status, disability or any other protected characteristics.
