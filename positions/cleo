@@ -1,0 +1,68 @@
+Cleo Logo
+Back to jobs
+New
+Senior Product Engineer - Ruby | Spain
+Spain (Remote)
+¡Hola España! Cleo is now hiring engineers remotely in Spain!
+
+About Cleo
+
+At Cleo, we're not just building another fintech app. We're embarking on a mission to fundamentally change humanity's relationship with money. Imagine a world where everyone, regardless of background or income, has access to a hyper-intelligent financial advisor in their pocket. That's the future we're creating.
+
+Cleo is a rare success story: a profitable, fast-growing unicorn with over $200 million in ARR and growing over 2x year-over-year. This isn't just a job; it's a chance to join a team of brilliant, driven individuals who are passionate about making a real difference. We have an exceptionally high bar for talent, seeking individuals who are not only at the top of their field but also embody our culture of collaboration and positive impact.
+
+If you’re driven by complex challenges that push your expertise, the chance to shape something truly transformative, and the potential to share in Cleo’s success as we scale, while growing alongside a company that’s scaling fast, this might be your perfect fit.
+
+Follow us on LinkedIn to keep up to date with new product features and insights from the team.
+
+What you'll be doing
+
+Joining a cross-functional product squad and collaborating with a mix of engineers, designers, analysts and other disciplines to develop features that enhance our users' financial health.
+Collaborating with other senior peers in your squad and pillar to provide technical insight into upcoming work, and leading the delivery by helping pull everyone together to get it shipped.
+Mentoring colleagues to help them grow as engineers and actively supporting their development.
+Working on our Ruby on Rails monolith, building data models, APIs, and business logic services.
+Delivering your work using agile methodologies and tools like tests, observability, AB-tests, and feature flags.
+Analyzing data to identify problems and generate new ideas, using various sources such as our database, application logs, and user research data.
+Supporting colleagues through in-hours support and optionally joining the compensated out-of-hours on-call rotation.
+Contributing to cross-cutting concerns that improve our engineering efforts.
+Taking part in shaping the work of your squad beyond technical aspects, participating in product ideation, user research, design reviews, retrospectives, and more.
+Here are some examples, big and small, of the kinds of product feature work our engineers have taken part in over the last year:
+
+Building a secured credit card
+Launching new budget analysis features
+implementing pricing experiments for subscriptions
+Want to hear more from our engineers? Check out Magda's blog post. 
+
+Our Tech Stack
+
+Cleo is built as a Ruby on Rails monolith with a single React Native app frontend, utilising TypeScript. We also leverage Python for machine learning services and PostgreSQL for our database, all hosted on AWS. Our CI/CD pipeline is fully automated, with production deployments happening on every merge via Heroku. Our backend engineers deploy multiple times a week, and we release our frontend app to Google and Apple for review at least once a week.
+
+While we take a pragmatic approach, we place a strong emphasis on quality. Our code is peer-reviewed, and we maintain automated testing using Minitest and CircleCI. We're also actively working towards a more modular architecture, focusing on separating concerns to achieve all the benefits of microservices within a monolith, while progressively refactoring our code as we build new features. Everyone in the engineering team contributes to driving our technical strategy, voices & ideas from all levels are valued: we are all owners at Cleo.
+
+About you
+
+You are passionate about making a positive difference in society by improving the financial health of our users. You align with our company values and engineering principles, which drive our ways of working and software delivery.
+
+As this is a SE3-SE4 position we’re looking for someone who has at least 4 years industry experience of using Ruby on Rails. If it’s not quite that much, maybe you want to look at our standard Backend role.
+
+What do you get for all your hard work?
+
+A competitive compensation package (base + equity) with bi-annual reviews, aligned to our quarterly OKR planning cycles. You can view our public progression framework and salary bandings here: https://cleo-ai.progressionapp.com/ 
+Work at one of the fastest-growing tech startups, backed by top VC firms, Balderton & EQT Ventures
+A clear progression plan. We want you to keep growing. That means trying new things, leading others, challenging the status quo and owning your impact. Always with our complete support. 
+Flexibility. We can’t fight for the world’s financial health if we’re not healthy ourselves. We work with everyone to make sure they have the balance they need to do their best work
+Work where you work best. We’re a globally distributed team. Our Poland team works fully remotely, but we host virtual socials and an annual company offsite somewhere in Europe with all expenses paid.
+Other benefits;
+Company-wide performance reviews every 6 months 
+Generous pay increases for high-performing team members
+Equity top-ups for team members getting promoted
+1 month paid sabbatical after 4 years at Cleo
+Regular socials and activities, online and in-person
+We'll pay for your OpenAI subscription
+Online mental health support via Spill
+We’ll be employing you through our EOR provider, Deel, and can discuss our current benefit offering directly.
+We strongly encourage applications from people of colour, the LGBTQ+ community, people with disabilities, neurodivergent people, parents, carers, and people from lower socio-economic backgrounds.
+
+If there’s anything we can do to accommodate your specific situation, please let us know.
+
+Spain App access: The Cleo app is not downloadable in Spain right now. Why? 99% of our users are based in the US – where financial health is often overlooked. We’ve decided to shift our focus to where we can provide the most value and make the greatest impact for users who need it most. We can share a slide deck detailing the apps capabilities in more detail though, to help you through the interview process. 
